@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('./Assets/Fonts/Roboto-Black.woff2') format('woff2'),
+         url('./Assets/Fonts/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('./Assets/Fonts/Roboto-Bold.woff2') format('woff2'),
+         url('./Assets/Fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('./Assets/Fonts/Roboto-Regular.woff2') format('woff2'),
+         url('./Assets/Fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container{
+    max-width: 1450px;
+}
+
+.active > span{
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #1DA1F2;
+}
